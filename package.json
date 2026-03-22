@@ -1,0 +1,24 @@
+{
+  "homepage": "https://filipkonecni-tech.github.io/MaturaApp/",
+  "name": "matura2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.1.0",
+    "gh-pages": "^6.3.0",
+    "vue": "^3.5.30"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.5",
+    "supabase": "^2.83.0",
+    "vite": "^8.0.1"
+  }
+}
